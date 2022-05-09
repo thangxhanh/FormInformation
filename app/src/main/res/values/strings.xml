@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Form Information</string>
+    <string name="hintName">Họ và tên</string>
+    <string name="hintMSSV">MSSV</string>
+    <string name="hintCCCD">Số CCCD</string>
+    <string name="hintPhone">Số điện thoại</string>
+    <string name="hintEmail">Địa chỉ Email</string>
+    <string name="hintHome">Quê quán</string>
+    <string name="hintAdd">Địa chỉ</string>
+    <string name="hintMajors">Ngành học hiện tại</string>
+    <string name="KHMT">Khoa học máy tính</string>
+    <string name="KTMT">Kỹ thuật máy tính</string>
+    <string name="hintCode">NGgôn ngữ lập trình</string>
+    <string name="hintNGLT">Ngôn ngữ lập trình</string>
+</resources>

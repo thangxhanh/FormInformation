@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/Edit_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintName"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Edit_MSSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintMSSV"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Edit_CCCD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintCCCD"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Edit_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintPhone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/Edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintEmail"
+                android:inputType="textEmailAddress"/>
+
+            <TextView
+                android:id="@+id/Text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Ngày sinh:" />
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/Edit_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintHome"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Edit_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hintAdd"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hintMajors"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/Major"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/KHMT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KHMT"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/KTMT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KTMT"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hintNGLT"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+            <CheckBox
+                android:id="@+id/Java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java" />
+
+            <CheckBox
+                android:id="@+id/Python"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Python" />
+
+            <CheckBox
+                android:id="@+id/Javascript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Javascript" />
+
+            <CheckBox
+                android:id="@+id/Terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accept the terms" />
+
+            <Button
+                android:id="@+id/button_OK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#DC143C"
+                android:text="OK" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
